@@ -1,5 +1,13 @@
 # CVND---Image-Captioning-Project
 
+
+![Image Captioning Model](https://github.com/calincan2000/CVND-Image-Captioning-PyTorch-/blob/master/images/image-captioning.png)
+Project Overview
+In this project, you will create a neural network architecture to automatically generate captions from images.
+
+After using the Microsoft Common Objects in COntext (MS COCO) dataset to train your network, you will test your network on novel images!
+
+
 # Instructions  
 1. Clone this repo: https://github.com/cocodataset/cocoapi  
 ```
