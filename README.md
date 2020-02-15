@@ -7,6 +7,17 @@ In this project, you will create a neural network architecture to automatically 
 
 After using the Microsoft Common Objects in COntext (MS COCO) dataset to train your network, you will test your network on novel images!
 
+![Encoder-Decoder](https://github.com/calincan2000/CVND-Image-Captioning-PyTorch-/blob/master/images/encoder-decoder.png)
+
+The encoder that we provide to you uses the pre-trained ResNet-50 architecture (with the final fully-connected layer removed) to extract features from a batch of pre-processed images. The output is then flattened to a vector, before being passed through a Linear layer to transform the feature vector to have the same size as the word embedding.
+
+
+LSTM Decoder
+In the project, we pass all our inputs as a sequence to an LSTM. A sequence looks like this: first a feature vector that is extracted from an input image, then a start word, then the next word, the next word, and so on!
+
+
+
+
 
 # Instructions  
 1. Clone this repo: https://github.com/cocodataset/cocoapi  
